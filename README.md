@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ## ▶️ Run
 
 ```bash
-python main.py
+python newgame.py
 ```
 
 ---
