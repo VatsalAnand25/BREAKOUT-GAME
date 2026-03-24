@@ -42,7 +42,7 @@ cols = (screen_width + block_spacing) // (block_width + block_spacing)
 
 block_height = screen_height // 30
 blocks = []
-brick_texture = pygame.image.load("assets/background.png")  # Replace with your brick texture file
+brick_texture = pygame.image.load("background.png")  # Replace with your brick texture file
 brick_texture = pygame.transform.scale(brick_texture, (block_width, block_height))
 
 # Setup font for scoring
